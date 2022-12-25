@@ -3,5 +3,8 @@
     "react-fade-in": "^2.0.1",
     "react-markdown": "^8.0.4",
     "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
