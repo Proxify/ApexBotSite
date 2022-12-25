@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ApexBotSite/static/css/main.8f3a7bd6.css",
+    "main.js": "/ApexBotSite/static/js/main.db2ab4fb.js",
+    "static/js/787.9f83f9b5.chunk.js": "/ApexBotSite/static/js/787.9f83f9b5.chunk.js",
+    "static/media/apex_logo.svg": "/ApexBotSite/static/media/apex_logo.af5e34d8d28c7ffbf3ffb6dbf613d780.svg",
+    "index.html": "/ApexBotSite/index.html",
+    "main.8f3a7bd6.css.map": "/ApexBotSite/static/css/main.8f3a7bd6.css.map",
+    "main.db2ab4fb.js.map": "/ApexBotSite/static/js/main.db2ab4fb.js.map",
+    "787.9f83f9b5.chunk.js.map": "/ApexBotSite/static/js/787.9f83f9b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3a7bd6.css",
+    "static/js/main.db2ab4fb.js"
+  ]
+}
