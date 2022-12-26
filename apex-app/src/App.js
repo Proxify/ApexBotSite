@@ -5,11 +5,14 @@ import Header from './components/Header.js';
 
 function App() {
   const bots = ["ApexArchaeology", "ApexAssistant", "ApexCrafting", "ApexDivination", "ApexSmithing"]
-  const [selectedBot, setSelectedBot] = useState("Home");
+  const botNamesRegex = new RegExp( bots.join( "|" ), "i");
+  const pathname = window.location.pathname.toLocaleLowerCase();
+  const [selectedBot, setSelectedBot] = useState(pathname === "/home" || botNamesRegex.test(pathname.substring(1)) ? pathname.substring(1) : "Home");
 
-  const selectBotOnClick = (botName) => {
+  const selectBotOnClick = (botName) => {   
     setSelectedBot(botName);
-  };
+    window.history.replaceState(null, `ApexBots | ${botName}`, `/${botName}`)
+  };  
   
   const [ markdownContent, setMarkdownContent] = useState({md: ""});
 

@@ -26,7 +26,7 @@ function MainContent(props) {
     }
 
     const render = () => {
-        console.log(`Selected Bot: ${selectedBot}`);
+        //console.log(`Selected Bot: ${selectedBot}`);
         return selectedBot === "Home" ? home() : mdF(md);
     }
 
