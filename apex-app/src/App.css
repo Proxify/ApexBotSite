@@ -41,7 +41,7 @@
   align-items: center;
   transition:ease-in-out all 0.3s;
   flex: 1 1 400px;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
   white-space: normal;
   padding: 20px;
@@ -64,9 +64,9 @@
 
 .markdown-content p {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  flex: 0 1 auto;
-  max-width: 800px;
+  flex: 1 1 auto;
 }
 
 .App-logo {
@@ -99,7 +99,6 @@
   font-weight: 400;
   font-size: 1.0rem;
   overflow-x: auto;
-  /* border-left: solid 1px ghostWhite; */
 }
 
 .App-header-bot-item {

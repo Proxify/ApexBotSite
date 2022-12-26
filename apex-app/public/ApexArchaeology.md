@@ -31,11 +31,9 @@
 ## Images
 
 Configuration Menu
-
 ![Menu](https://iili.io/H3JY68u.md.png)
 
 Progress Report
-
 ![Progress Report](https://iili.io/HFyUHwG.png)
 
 ## Requirements
