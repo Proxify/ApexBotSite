@@ -1,9 +1,9 @@
 # ApexArchaeology
  A comprehensive, full-featured bot that supports all dig sites and hotspots, waterfiend familiar, porters, GotE, and plenty more!
 
-### **Online Status** - :white_check_mark:
+### **Online Status** - ✅
 
-### Features
+## Features
 ##### Supports all Dig Sites and Excavation locations
    * Traverse to all Dig Sites and Excavations via Archaeology Journal or Master Archaeology Outfit
       * Yes... literally all of them! Even includes instanced locations like Warforge's *Thalmund's Forge* and Senntisten's *Colosseum*!
@@ -28,7 +28,7 @@
 ##### Soil Box & Upgrades
    * The bot fully supports base-level Soil Box as well as the upgraded versions that can hold more soil
 
-### Images
+## Images
 
 Configuration Menu
 
@@ -38,7 +38,7 @@ Progress Report
 
 ![Progress Report](https://iili.io/HFyUHwG.png)
 
-### Requirements
+## Requirements
 * Player must have a preset configured that contains the items for the corresponding features you'd like the bot to use
    * For example, Waterfiend familiar pouch and scrolls should be in your preset if you want the bot to use the Waterfiend
 * Player must have the desired excavation locations unlocked prior to botting at the location
@@ -51,7 +51,21 @@ Progress Report
 
 ## Changelogs
 ##### ApexArchaeology v1.0.3
+`12/22/2022`
 - Updated to work with latest API changes
 - Improved navigation to the Everlight Oikoi area
 - Improved navigation when traversing between northern warforge tunnels to southern warforge tunnel hotspots
+- Added framework to support Material Cache's in a future update
+
+##### ApexArchaeology v1.0.2
+`11/29/2022`
 - Improved navigation and removed depositArea for Everlight Dominion South location
+
+##### ApexArchaeology v1.0.1
+`11/20/2022`
+- Improved detection of undiscovered hotspot locations
+- Added support for Upgraded Soil Box's increased quantity count
+
+##### ApexArchaeology v1.0.0
+`11/18/2022`
+- Initial Release

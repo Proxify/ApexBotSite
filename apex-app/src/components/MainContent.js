@@ -19,8 +19,8 @@ function MainContent(props) {
 
     const mdF = (md) => {
         return (
-            <div className="markdown">
-                <ReactMarkdown children={md} remarkPlugins={[remarkGfm]} />
+            <div className="markdown-holder">
+                <ReactMarkdown className="markdown-content" children={md} remarkPlugins={[remarkGfm]} />
             </div>
         )
     }
