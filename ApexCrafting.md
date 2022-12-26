@@ -21,17 +21,14 @@ Supports task system for Gem cutting, Jewelry crafting, and Harps. Presets, Port
 ### Images
 
 Harp Configuration
-
 ![Harp Configuration](https://iili.io/b7pZ22.png)
 
 
 Furnace Configuration
-
 ![Furnace Configuration](https://iili.io/b7pbp9.png)
 
 
 Progress Reports
-
 ![Progress Report 1](https://iili.io/H9xp3Ex.png)
 
 ![Progress Report 2](https://iili.io/H9KfrSS.png)

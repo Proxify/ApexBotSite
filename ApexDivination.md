@@ -23,12 +23,10 @@ Supports all main locations. Efficient prioritization of wisps/springs/enriched.
 ### Images
 
 Bot Configuration
-
 ![Bot Configuration](https://iili.io/bYHFb1.png)
 
 
 Progress Report
-
 ![Progress Report](https://iili.io/bZ3sCQ.png)
 
 
