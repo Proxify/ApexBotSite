@@ -48,6 +48,14 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.0.4
+`12/27/2022`
+- Extra materials are now deposited in the Material Storage Box prior to banking
+    - Added additional logic to bank via after depositing in the material storage if there's a damaged artefact in the bot's inventory
+- Fixed issues that was causing certain interface interactions to not work properly after the latest API update
+- Fixed an issue at the Kharid-Et location that was preventing the bot from moving between the Prison Block, Praetorium, and Barracks if tasks were set up to cascade between those locations
+- Fixed an issue where the bot would attempt to refill Grace of the Elves even if the inventory was full
+
 ##### ApexArchaeology v1.0.3
 `12/22/2022`
 - Updated to work with latest API changes
