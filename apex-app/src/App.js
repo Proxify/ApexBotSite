@@ -4,7 +4,7 @@ import MainContent from './components/MainContent.js'
 import Header from './components/Header.js';
 
 function App() {
-  const bots = ["ApexArchaeology", "ApexAssistant", "ApexCrafting", "ApexDivination", "ApexSmithing"]
+  const bots = ["ApexArchaeology", "ApexAssistant", "ApexCrafting", "ApexDivination", "ApexMining", "ApexSmithing"]
   const botNamesRegex = new RegExp( bots.join( "|" ), "i");
   const pathname = window.location.pathname.toLocaleLowerCase();
   const [selectedBot, setSelectedBot] = useState(pathname === "/home" || botNamesRegex.test(pathname.substring(1)) ? pathname.substring(1) : "Home");

@@ -1,7 +1,8 @@
 # ApexAssistant
 Assists legit players by keeping buffs active and providing statistics. Basically RuneMetrics++
 
-### **Online Status** - ✅
+**Online Status:** 
+✅ (Online)
 
 ## Features
 ##### Refreshes Animate Dead buff when it expires
