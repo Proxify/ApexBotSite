@@ -1,7 +1,8 @@
 # ApexArchaeology
  A comprehensive, full-featured bot that supports all dig sites and hotspots, waterfiend familiar, porters, GotE, and plenty more!
 
-### **Online Status** - ✅
+**Online Status:** 
+✅ (Online)
 
 ## Features
 ##### Supports all Dig Sites and Excavation locations
@@ -37,13 +38,17 @@ Progress Report
 ![Progress Report](https://iili.io/HFyUHwG.png)
 
 ## Requirements
-* Player must have a preset configured that contains the items for the corresponding features you'd like the bot to use
-   * For example, Waterfiend familiar pouch and scrolls should be in your preset if you want the bot to use the Waterfiend
-* Player must have the desired excavation locations unlocked prior to botting at the location
-   * Stormguard for instance is a PITA. I'd advise taking the time to unlock all the portals prior to use for a smooth experience.
-* Player must have the Archaeology Journal or Master Archaeology outfit as part of their preset
-* Player must have **five** available inventory slots configured in their preset
-* Player must configure their Material Deposit Box to have "Deposit all" option as their single click option.
+##### Client Settings
+    - Ensure that your RS client settings are set on `Min` and render distance set to `Min`
+        - This seems to alleviate some issues users have when attempting to interact with Bank Chests and Material Deposit Boxes
+##### Bot Settings
+- Player must have a preset configured that contains the items for the corresponding features you'd like the bot to use
+   - For example, Waterfiend familiar pouch and scrolls should be in your preset if you want the bot to use the Waterfiend
+- Player must have the desired excavation locations unlocked prior to botting at the location
+   - Stormguard for instance is a PITA. I'd advise taking the time to unlock all the portals prior to use for a smooth experience
+- Player must have the Archaeology Journal or Master Archaeology outfit as part of their preset
+- Player must have **five** available inventory slots configured in their preset
+- Player must configure their Material Deposit Box to have "Deposit all" option as their single click option
 
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
