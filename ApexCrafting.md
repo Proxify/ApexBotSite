@@ -1,7 +1,8 @@
 # ApexCrafting
 Supports task system for Gem cutting, Jewelry crafting, and Harps. Presets, Portables, and more!
 
-### **Online Status** - ✅
+**Online Status:** 
+✅ (Online)
 
 ### Features
 ##### Jewelry Crafting

@@ -1,7 +1,8 @@
 # ApexMining
  A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
-### **Online Status** - ✅ (Private Beta)
+**Online Status:** 
+✅ (Private Beta)
 
 ## Features
 ##### Supports all Ore Boxes

@@ -1,7 +1,8 @@
 # ApexDivination
 Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
 
-### **Online Status** - ✅
+**Online Status:** 
+✅ (Online)
 
 ### Features
 ##### Supports All Wisp locations
