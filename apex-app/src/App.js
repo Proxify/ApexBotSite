@@ -17,7 +17,7 @@ function App() {
   const [ markdownContent, setMarkdownContent] = useState({md: ""});
 
   useEffect(()=> {
-      fetch(process.env.PUBLIC_URL + `/${selectedBot}.md`)
+      fetch(process.env.PUBLIC_URL + `/bots/${selectedBot}.md`)
           .then((res) => res.text())
           .then((md) => {
             setMarkdownContent({ md })

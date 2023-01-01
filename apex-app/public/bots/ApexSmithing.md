@@ -18,8 +18,6 @@ Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all it
 - Recommended to use at Artisan's Workshop. The bot can work at other locations, but it is optimized and tested here.
 - Smelting Gold or Silver bars requires to completion of Family Crest
 
-https://iili.io/bY9JwX.png
-
 ### Images
 Bot Configuration
 ![Bot Configuration](https://iili.io/bY9JwX.png)
