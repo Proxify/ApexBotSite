@@ -1,8 +1,8 @@
 # ApexMining
- A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
+A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
 **Online Status:** 
-✅ (Private Beta)
+✅ (Public Beta)
 
 ## Features
 ##### Supports all Ore Boxes
@@ -111,6 +111,16 @@ Configuration Menu
 ![Menu - Placeholder](TBD)
 
 ## Changelogs
+##### ApexMining v0.0.2
+`01/01/2023`
+- Public beta release
+- Added basic logic for all MineLocation and BankLocation traversals. These will need to be thoroughly tested.
+- Fixed a NPE when attempting to deposit items in a Bank or Deposit Box
+- Fixed a NPE that would occur when determining the active "RockTask" within a "MineTask"
+- Added the ability to enable presets in the GUI
+- Fixed an issue that was causing the bank deposit logic to only deposit ore from the latest "RockTask"
+
+
 ##### ApexMining v0.0.1
 `12/28/2022`
 - Private beta release
