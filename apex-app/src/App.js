@@ -1,6 +1,5 @@
 import './App.css';
 import logo from './resources/apex_logo.svg';
-import { useState } from "react";
 import MarkdownContent from './components/MarkdownContent.js'
 import Header from './components/Header.js';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
