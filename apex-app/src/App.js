@@ -1,32 +1,22 @@
 import './App.css';
 import logo from './resources/apex_logo.svg';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import MarkdownContent from './components/MarkdownContent.js'
 import Header from './components/Header.js';
-import { BrowserRouter, Link, Route, Routes, useNavigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const bots = ["ApexArchaeology", "ApexAssistant", "ApexCrafting", "ApexDivination", "ApexMining", "ApexSmithing"]
   const botNamesRegex = new RegExp( bots.join( "|" ), "i");
   const pathname = window.location.pathname.toLocaleLowerCase();
   const [selectedBot, setSelectedBot] = useState(botNamesRegex.test(pathname.substring(6)) ? pathname.substring(6) : "N/A");
-  //const navigate = useNavigate();
 
   const baseNavigate = (path) => {
     if (path.includes('/bots/')) {
       setSelectedBot(path);
     }
     window.history.replaceState(null, `ApexBots | ${path}`, `${path}`)
-    //navigate(path);
   };  
-
-  // useEffect(()=> {
-  //     fetch(process.env.PUBLIC_URL + `/bots/${selectedBot}.md`)
-  //         .then((res) => res.text())
-  //         .then((md) => {
-  //           setMarkdownContent({ md })
-  //         })
-  // }, [selectedBot])
 
   return (
     <div className="App">

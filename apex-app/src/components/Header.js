@@ -1,7 +1,7 @@
 import logo from '../resources/apex_logo.svg';
 import '../App.css';
 import { useLocation } from 'react-router';
-import { Outlet, Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Header(props) {
     const bots = props.bots;
