@@ -7,16 +7,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const bots = ["ApexArchaeology", "ApexAssistant", "ApexCrafting", "ApexDivination", "ApexMining", "ApexSmithing"]
-  const botNamesRegex = new RegExp( bots.join( "|" ), "i");
-  const pathname = window.location.pathname.toLocaleLowerCase();
-  const [selectedBot, setSelectedBot] = useState(botNamesRegex.test(pathname.substring(6)) ? pathname.substring(6) : "N/A");
-
-  const baseNavigate = (path) => {
-    if (path.includes('/bots/')) {
-      setSelectedBot(path);
-    }
-    window.history.replaceState(null, `ApexBots | ${path}`, `${path}`)
-  };  
 
   return (
     <div className="App">
