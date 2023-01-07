@@ -108,7 +108,7 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 ## Images
 
 Configuration Menu
-![Menu - Placeholder](TBD)
+![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
 ##### ApexMining v0.0.3
