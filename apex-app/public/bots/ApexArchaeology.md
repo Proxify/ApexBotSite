@@ -39,8 +39,8 @@ Progress Report
 
 ## Requirements
 ##### Client Settings
-    - Ensure that your RS client settings are set on `Min` and render distance set to `Min`
-        - This seems to alleviate some issues users have when attempting to interact with Bank Chests and Material Deposit Boxes
+- Ensure that your RS client settings are set on `Min` and render distance set to `Min`
+   - This seems to alleviate some issues users have when attempting to interact with Bank Chests and Material Deposit Boxes
 ##### Bot Settings
 - Player must have a preset configured that contains the items for the corresponding features you'd like the bot to use
    - For example, Waterfiend familiar pouch and scrolls should be in your preset if you want the bot to use the Waterfiend

@@ -111,6 +111,13 @@ Configuration Menu
 ![Menu - Placeholder](TBD)
 
 ## Changelogs
+##### ApexMining v0.0.3
+`01/07/2023`
+- Added persistent saves / JSON serialization & deserialization
+- Fixed a NPE when attempting to determine the current mine task
+- Fixed an issue that was causing the OreBox to be skipped over when depositing into a bank
+- Fixed an issue with depositing via Forge / Anvil
+
 ##### ApexMining v0.0.2
 `01/01/2023`
 - Public beta release
