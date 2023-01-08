@@ -67,6 +67,11 @@
   align-items: flex-start;
   flex-direction: column;
   flex: 1 1 auto;
+  margin: 0;
+}
+
+.markdown-content h5 {
+  margin: 0.8rem;
 }
 
 .App-logo {
