@@ -65,7 +65,11 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 - Varrock East / West
 - Remmington (Clan Camp)
 - Mining Guild
+- Mining Guild Resource Dungeon
+    - Requires 45 Dungeoneering & 60 Mining
 - Al Kharid Mine
+- Al Kharid Resource Dungeon
+    - Requires 75 Dungeoneering
 - Yanille
 - Port Phasmatys
 - North Fremennik (Bane)
@@ -77,10 +81,6 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
     - Requires user to have Shantay Pass Travel-Throuh Message turned off
     - Requires user to have Uzer unlocked for Magic Carpet
     - Dangerous location. Protection from desert heat is highly recommended. (Include in your preset)
-- Al Kharid Resource Dungeon
-    - Requires 75 Dungeoneering
-- Mining Guild Resource Dungeon
-    - Requires 45 Dungeoneering & 60 Mining
 - Wilderness Level 6 (Runite rock)
     - Dangerous location
 
@@ -111,6 +111,14 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.0
+`01/08/2023`
+- Mining Rockertunities are now operational
+- The bot will now continue mining the last rock to fill the player's inventory once the Ore Box is full
+- Fixed an issue that was preventing Drakolith mining from working properly
+- Fixed an issue that was causing the bot to bank early
+- Silver and Iron rocks can now be mined within the Burthorpe Mining site
+
 ##### ApexMining v0.0.3
 `01/07/2023`
 - Added persistent saves / JSON serialization & deserialization
