@@ -2,7 +2,7 @@
 Supports task system for Gem cutting, Jewelry crafting, and Harps. Presets, Portables, and more!
 
 **Online Status:** 
-✅ (Online)
+❌ (Offline)
 
 ### Features
 ##### Jewelry Crafting
@@ -38,6 +38,10 @@ Progress Reports
 - Recommended to craft jewelry within Artisan's Workship. Other locations may work, but this is where all testing is done.
 
 ## Changelogs
+##### ApexCrafting v1.0.6
+`01/08/2023`
+- Updated to work with latest API changes
+
 ##### ApexCrafting v1.0.5
 `12/22/2022`
 - Updated to work with latest API changes

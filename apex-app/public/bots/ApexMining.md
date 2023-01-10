@@ -2,7 +2,7 @@
 A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
 **Online Status:** 
-✅ (Online)
+⚠️ (Partial)
 
 ## Features
 ##### Supports all Ore Boxes
@@ -113,6 +113,7 @@ Configuration Menu
 ## Changelogs
 #### ApexMining v1.0.0 (Official Release)
 `01/08/2023`
+- Updated to work with latest API changes
 - Mining Rockertunities are now operational
 - The bot will now continue mining the last rock to fill the player's inventory once the Ore Box is full
 - Fixed an issue that was preventing Drakolith mining from working properly

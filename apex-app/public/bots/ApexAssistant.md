@@ -2,7 +2,7 @@
 Assists legit players by keeping buffs active and providing statistics. Basically RuneMetrics++
 
 **Online Status:** 
-✅ (Online)
+❌ (Offline)
 
 ## Features
 ##### Refreshes Animate Dead buff when it expires
@@ -27,6 +27,10 @@ Assists legit players by keeping buffs active and providing statistics. Basicall
 * Please make any requests! I will happily add more features as requested :slight_smile:
 
 ## Changelogs
+##### ApexAssistant v1.0.2
+`01/08/2023`
+- Updated to work with latest API changes
+
 ##### ApexAssistant v1.0.1
 `12/22/2022`
 - Updated to work with latest API changes

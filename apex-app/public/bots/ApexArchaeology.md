@@ -2,7 +2,7 @@
  A comprehensive, full-featured bot that supports all dig sites and hotspots, waterfiend familiar, porters, GotE, and plenty more!
 
 **Online Status:** 
-✅ (Online)
+❌ (Offline)
 
 ## Features
 ##### Supports all Dig Sites and Excavation locations
@@ -53,6 +53,10 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.0.5
+`01/08/2023`
+- Updated to work with latest API changes
+
 ##### ApexArchaeology v1.0.4
 `12/27/2022`
 - Extra materials are now deposited in the Material Storage Box prior to banking

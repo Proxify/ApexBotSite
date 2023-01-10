@@ -2,7 +2,7 @@
 Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
 
 **Online Status:** 
-✅ (Online)
+⚠️ (Partial)
 
 ### Features
 ##### Supports All Wisp locations
@@ -35,11 +35,16 @@ Progress Report
 - Player must bring their character to the divination rift prior to starting the bot
 
 ## Changelogs
-##### ApexCrafting v1.0.1
+##### ApexDivination v1.0.2
+`01/08/2023`
+- Updated to work with latest API changes
+- Added serialization/deserliaization support for bot settings. Bot settings will now persist through client restarts
+
+##### ApexDivination v1.0.1
 `12/22/2022`
 - Updated to work with latest API changes
 - Fixed an issue that was preventing the bot from selecting the conversion type
 
-##### ApexCrafting v1.0.0
+##### ApexDivination v1.0.0
 `10/24/2022`
 - Initial Release
