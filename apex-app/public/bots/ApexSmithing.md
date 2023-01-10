@@ -2,7 +2,7 @@
 Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all items from Base -> Burial and repeat!
 
 **Online Status:** 
-✅ (Online)
+❌ (Offline)
 
 ### Features
 ##### Smelt All Bars & Corrupted Ore
@@ -23,6 +23,10 @@ Bot Configuration
 ![Bot Configuration](https://iili.io/bY9JwX.png)
 
 ## Changelogs
+##### ApexSmithing v1.0.3
+`01/08/2023`
+- Updated to work with latest API changes
+
 ##### ApexSmithing v1.0.2
 `12/22/2022`
 - Updated to work with latest API changes
