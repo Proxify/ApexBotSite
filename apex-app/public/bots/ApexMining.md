@@ -2,7 +2,7 @@
 A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
 **Online Status:** 
-⚠️ (Partial)
+✅ (Online)
 
 ## Features
 ##### Supports all Ore Boxes
@@ -111,6 +111,11 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+#### ApexMining v1.0.1
+`01/14/2023`
+- Updated for latest Abyss API changes
+- Improved navigation for Mining Guild location
+
 #### ApexMining v1.0.0 (Official Release)
 `01/08/2023`
 - Updated to work with latest API changes

@@ -2,7 +2,7 @@
 Supports task system for Gem cutting, Jewelry crafting, and Harps. Presets, Portables, and more!
 
 **Online Status:** 
-❌ (Offline)
+✅ (Online)
 
 ### Features
 ##### Jewelry Crafting
@@ -38,6 +38,12 @@ Progress Reports
 - Recommended to craft jewelry within Artisan's Workship. Other locations may work, but this is where all testing is done.
 
 ## Changelogs
+##### ApexCrafting v1.0.7
+`01/14/2023`
+- Updated for latest Abyss API changes
+- User settings will now persist through bot sessions
+- Addressed an issue that prevented the bot from knowing whether a Gold bar is selected when attempting to craft jewelry in a Furnace
+
 ##### ApexCrafting v1.0.6
 `01/08/2023`
 - Updated to work with latest API changes

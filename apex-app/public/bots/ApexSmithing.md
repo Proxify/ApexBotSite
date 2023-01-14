@@ -2,7 +2,7 @@
 Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all items from Base -> Burial and repeat!
 
 **Online Status:** 
-❌ (Offline)
+✅ (Online)
 
 ### Features
 ##### Smelt All Bars & Corrupted Ore
@@ -23,6 +23,12 @@ Bot Configuration
 ![Bot Configuration](https://iili.io/bY9JwX.png)
 
 ## Changelogs
+##### ApexSmithing v1.0.4
+`01/14/2023`
+- Updated for latest Abyss API changes
+- User settings will now persist through bot sessions
+- The player should no longer reopen the Furnace while active smelting bars
+
 ##### ApexSmithing v1.0.3
 `01/08/2023`
 - Updated to work with latest API changes

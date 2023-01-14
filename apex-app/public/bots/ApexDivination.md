@@ -2,7 +2,7 @@
 Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
 
 **Online Status:** 
-⚠️ (Partial)
+✅ (Online)
 
 ### Features
 ##### Supports All Wisp locations
@@ -35,6 +35,11 @@ Progress Report
 - Player must bring their character to the divination rift prior to starting the bot
 
 ## Changelogs
+##### ApexDivination v1.0.3
+`01/14/2023`
+- Updated for latest Abyss API changes
+- Addressed an issue that was preventing interaction with the rift object occasionally
+
 ##### ApexDivination v1.0.2
 `01/08/2023`
 - Updated to work with latest API changes
