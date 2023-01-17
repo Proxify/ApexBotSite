@@ -111,6 +111,11 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+#### ApexMining v1.0.2
+`01/16/2023`
+- Fixed traversal for Empty Throne Room location
+    - The bot will utilize the Arch Journal if found within the player's inventory or is equipped
+
 #### ApexMining v1.0.1
 `01/14/2023`
 - Updated for latest Abyss API changes

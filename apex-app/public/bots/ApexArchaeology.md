@@ -53,9 +53,17 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.0.7
+`01/16/2023`
+- Fixed an issue that was preventing the bot from depositing the contents within the Soil Box
+- Re-enabled the logic that allows depositing Pylon Batteries and Rex Skeletal Fragments
+- Added Varrock lodestone to the traversal logic when attempting to navigate to the Arch Guild if the player does not have other means of getting there
+- Improved logic for determining which deposit box to use when at Infernal Source
+
 ##### ApexArchaeology v1.0.6
 `01/14/2023`
 - User settings will now persist through bot sessions
+- Fixed an issue that was preventing the bot from depositing Soil Box contents when banking
 
 ##### ApexArchaeology v1.0.5
 `01/08/2023`
