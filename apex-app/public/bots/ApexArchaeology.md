@@ -28,6 +28,8 @@
    * The bot will automatically drink from Super Restore potions when low on Prayer or Summoning points
 ##### Soil Box & Upgrades
    * The bot fully supports base-level Soil Box as well as the upgraded versions that can hold more soil
+##### Auto-Screener Support
+   * Just include the Auto-Screener in your configured preset and the bot will take care of the rest!
 
 ## Images
 
