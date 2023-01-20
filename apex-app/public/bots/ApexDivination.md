@@ -35,6 +35,10 @@ Progress Report
 - Player must bring their character to the divination rift prior to starting the bot
 
 ## Changelogs
+##### ApexDivination v1.0.4
+`01/19/2023`
+- Addressed an issue that was preventing the bot from depositing energies while a Guthixian Cache event was active
+
 ##### ApexDivination v1.0.3
 `01/14/2023`
 - Updated for latest Abyss API changes
