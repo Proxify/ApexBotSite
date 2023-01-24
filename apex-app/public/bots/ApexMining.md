@@ -111,17 +111,21 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
-#### ApexMining v1.0.2
+##### ApexMining v1.0.3
+`01/23/2023`
+- Fixed an issue that was causing the client to crash when the bot would bank without a configured preset
+
+##### ApexMining v1.0.2
 `01/16/2023`
 - Fixed traversal for Empty Throne Room location
     - The bot will utilize the Arch Journal if found within the player's inventory or is equipped
 
-#### ApexMining v1.0.1
+##### ApexMining v1.0.1
 `01/14/2023`
 - Updated for latest Abyss API changes
 - Improved navigation for Mining Guild location
 
-#### ApexMining v1.0.0 (Official Release)
+##### ApexMining v1.0.0 (Official Release)
 `01/08/2023`
 - Updated to work with latest API changes
 - Mining Rockertunities are now operational
@@ -130,14 +134,14 @@ Configuration Menu
 - Fixed an issue that was causing the bot to bank early
 - Silver and Iron rocks can now be mined within the Burthorpe Mining site
 
-#### ApexMining v0.0.3 (Beta)
+##### ApexMining v0.0.3 (Beta)
 `01/07/2023`
 - Added persistent saves / JSON serialization & deserialization
 - Fixed a NPE when attempting to determine the current mine task
 - Fixed an issue that was causing the OreBox to be skipped over when depositing into a bank
 - Fixed an issue with depositing via Forge / Anvil
 
-#### ApexMining v0.0.2 (Beta)
+##### ApexMining v0.0.2 (Beta)
 `01/01/2023`
 - Public beta release
 - Added basic logic for all MineLocation and BankLocation traversals. These will need to be thoroughly tested.
@@ -146,6 +150,6 @@ Configuration Menu
 - Added the ability to enable presets in the GUI
 - Fixed an issue that was causing the bank deposit logic to only deposit ore from the latest "RockTask"
 
-#### ApexMining v0.0.1 (Beta)
+##### ApexMining v0.0.1 (Beta)
 `12/28/2022`
 - Private beta release
