@@ -55,6 +55,10 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.0.9
+`01/24/2023`
+- Chasing Sprite Spirits is now enabled and operational
+
 ##### ApexArchaeology v1.0.8
 `01/18/2023`
 - Fixed an issue that was preventing the bot from refilling porters
