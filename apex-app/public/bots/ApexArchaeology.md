@@ -6,13 +6,15 @@
 
 ## Features
 ##### Supports all Dig Sites and Excavation locations
-   * Traverse to all Dig Sites and Excavations via Archaeology Journal or Master Archaeology Outfit
+   * Traverse to all Dig Sites and Excavations via _Archaeology Journal_ or _Master Archaeology Outfit_
       * Yes... literally all of them! Even includes instanced locations like Warforge's *Thalmund's Forge* and Senntisten's *Colosseum*!
    * Player must have the area unlocked and hotspot discovered for the bot to work as intended
 ##### Task System
    * Queue multiple excavations across multiple Dig Sites 
        * Tasks can be completed after obtaining a certain Archaeology level, Artefact count or *Material count
           * _*Material count coming soon_
+##### Chase Sprite Spirits
+   * Choose between Active, Intermediate, and AFK playstyles when chasing Sprites!
 ##### Grace of the Elves and Porters
    * Keeps the porter count on your Grace of the Elves topped up. The bank trip will trigger when all porters are gone and porter count within your necklace is depleted
    * Captures Seren Spirits
@@ -28,8 +30,8 @@
    * The bot will automatically drink from Super Restore potions when low on Prayer or Summoning points
 ##### Soil Box & Upgrades
    * The bot fully supports base-level Soil Box as well as the upgraded versions that can hold more soil
-##### Auto-Screener Support
-   * Just include the Auto-Screener in your configured preset and the bot will take care of the rest!
+##### Auto-Screener & Mechanized Siphon Support
+   * Just include the Auto-Screener and your Mechanize Siphon in your configured preset and the bot will take care of the rest!
 
 ## Images
 
