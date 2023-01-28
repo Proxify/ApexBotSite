@@ -23,6 +23,10 @@ Bot Configuration
 ![Bot Configuration](https://iili.io/bY9JwX.png)
 
 ## Changelogs
+##### ApexSmithing v1.0.5
+`01/28/2023`
+- Fixed an issue that was preventing the smelting of Iron, Steel, and Elder Rune bars
+
 ##### ApexSmithing v1.0.4
 `01/14/2023`
 - Updated for latest Abyss API changes
