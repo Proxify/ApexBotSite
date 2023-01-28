@@ -111,6 +111,11 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.4
+`01/27/2023`
+- Fixed an issue that was causing the bot to get stuck during banking trips at certain locations
+- Fixed traversals at Prifddinas
+
 ##### ApexMining v1.0.3
 `01/23/2023`
 - Fixed an issue that was causing the client to crash when the bot would bank without a configured preset
