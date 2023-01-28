@@ -55,6 +55,14 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.1.0
+`01/27/2023`
+- Users can now choose between Active, Intermediate, and AFK playstyles for chasing Sprite Spirits
+- Fixed a bug that was causing the bot to idle after interacting with a super restore potion if the Chase Sprite option was enabled
+- The bot will now utilize the Master Archaeology outfit when teleporting to the Arch Guild for specifically for Tome turn-ins
+- Addressed an issue where the bot would repeatedly teleport to the Varrock lodestone if the player did not have the Arch Journal or Master Outfit equipped
+- Grace of the Elves will now refill from the Equipment screen!
+
 ##### ApexArchaeology v1.0.9
 `01/24/2023`
 - Chasing Sprite Spirits is now enabled and operational
