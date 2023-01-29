@@ -75,6 +75,7 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 - North Fremennik (Bane)
 - Empty Throne Room (Dark Animica)
 - Prifddinas
+- Anachronia (Light Animica)
 - Tirannwn (Light Animica)
     - Requires user to have Tirannwn location unlocked
 - Uzer (Necrite)
@@ -111,6 +112,10 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.5
+`01/28/2023`
+- Added Anachronia location support for Light Animica
+
 ##### ApexMining v1.0.4
 `01/27/2023`
 - Fixed an issue that was causing the bot to get stuck during banking trips at certain locations
