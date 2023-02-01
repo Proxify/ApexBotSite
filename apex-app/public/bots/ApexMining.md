@@ -112,6 +112,11 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.6
+`02/01/2023`
+- Added Forge/Anvil deposit option for Burthorpe bank location
+- Improved traversal to the Burthorpe mine
+
 ##### ApexMining v1.0.5
 `01/28/2023`
 - Added Anachronia location support for Light Animica
