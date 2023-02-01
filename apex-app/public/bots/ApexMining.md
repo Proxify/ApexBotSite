@@ -114,8 +114,11 @@ Configuration Menu
 ## Changelogs
 ##### ApexMining v1.0.6
 `02/01/2023`
+- Improved logic for determining rockertunity positioning
+    - Previously, if two rocks were too close the bot would not be able to distinguish which rock had the rockertunity active
 - Added Forge/Anvil deposit option for Burthorpe bank location
-- Improved traversal to the Burthorpe mine
+- Added Archaeology Guild bank as a deposit option for Arctic Habitat, Remmington, Varrock West, and Anachronia mining locations
+- Improved traversals to Varrock East, Burthorpe and Remmington mine locations
 
 ##### ApexMining v1.0.5
 `01/28/2023`
