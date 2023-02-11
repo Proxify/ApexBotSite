@@ -112,6 +112,11 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.7
+`02/11/2023`
+- Addressed an issue that was preventing the bot from depositing contents in the ore box when not configured to use a preset
+- Updated to work with latest Abyss client
+
 ##### ApexMining v1.0.6
 `02/01/2023`
 - Improved logic for determining rockertunity positioning

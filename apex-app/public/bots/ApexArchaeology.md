@@ -57,6 +57,10 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.1.1
+`02/11/2023`
+- Updated to work with latest Abyss client
+
 ##### ApexArchaeology v1.1.0
 `01/27/2023`
 - Users can now choose between Active, Intermediate, and AFK playstyles for chasing Sprite Spirits
