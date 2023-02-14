@@ -2,7 +2,8 @@
 Assists legit players by keeping buffs active and providing statistics. Basically RuneMetrics++
 
 **Online Status:** 
-✅ (Online)
+⚠️ (Partial)
+* Grace of the Elves and Porters are currently broken in the latest client release
 
 ## Features
 ##### Refreshes Animate Dead buff when it expires

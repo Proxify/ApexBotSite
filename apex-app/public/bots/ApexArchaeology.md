@@ -2,7 +2,8 @@
  A comprehensive, full-featured bot that supports all dig sites and hotspots, waterfiend familiar, porters, GotE, and plenty more!
 
 **Online Status:** 
-✅ (Online)
+⚠️ (Partial)
+* Grace of the Elves and Porters are currently broken in the latest client release
 
 ## Features
 ##### Supports all Dig Sites and Excavation locations
