@@ -3,7 +3,7 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 
 **Online Status:** 
 ⚠️ (Partial)
-* Grace of the Elves and Porters are currently broken in the latest client release
+* Juju potions currently broken in the latest client release
 
 ## Features
 ##### Supports all Ore Boxes
