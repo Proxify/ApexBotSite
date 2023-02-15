@@ -113,6 +113,18 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.8
+`02/15/2023`
+- Addressed an issue that was preventing the bot from banking at Edgeville bank
+- Added May's Chest as a support bank location for Varrock West Mining
+- Improved traversals to and from Al Kharid Resource Dungeon, Mining Guild, and Wilderness Level 6 Mine
+- Fixed an issue that was causing the Location / Rock menu results to be inaccurate for certain locations
+- Fixed a bunch of locations that were not configured properly:
+    - Lumbridge Swamp East & West
+    - Wilderness Level 6 Mine
+    - Gem Rocks at Burthorpe Mine
+    - Mithril, Adamant, and Rune rock at Prifddinas
+
 ##### ApexMining v1.0.7
 `02/11/2023`
 - Addressed an issue that was preventing the bot from depositing contents in the ore box when not configured to use a preset
