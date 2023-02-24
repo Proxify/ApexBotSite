@@ -113,6 +113,22 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.0.9
+`02/24/2023`
+- Improved overall object interactions in several traversal pathing logics
+- Added Precious Gem Rock locations for:
+    - Al-Kharid Resource Dungeon Mine
+    - Shilo Village Mine
+- Added Common Gem Rock location for:
+    - Al-Kharid Normal Mine
+- Fixed traversals:
+    - Yanille
+    - Al-Kharid Mine
+    - Al-Kharid Resource Dungeon Mine
+        - The bot will utilize the Archaeology outfit or journal to bank via the Arch guild if that bank is chosen
+        - Additionally, the bot will also use the rock shortcut when traversing back to the mine if the player's Agility level is 38 or higher
+
+
 ##### ApexMining v1.0.8
 `02/15/2023`
 - Addressed an issue that was preventing the bot from banking at Edgeville bank
