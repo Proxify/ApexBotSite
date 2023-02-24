@@ -72,6 +72,7 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 - Al Kharid Resource Dungeon
     - Requires 75 Dungeoneering
 - Yanille
+- Shilo Village
 - Port Phasmatys
 - North Fremennik (Bane)
 - Empty Throne Room (Dark Animica)
@@ -104,8 +105,10 @@ A full-featured bot supporting several locations, multiple playstyles, ore boxes
 - Bane
 - Light Animica
 - Dark Animica
-- Prifddinas Gem Rock
 - Seren Stone
+- Prifddinas Gem Rock
+- Common Gem Rock
+- Precious Gem Rock
 
 ## Images
 
