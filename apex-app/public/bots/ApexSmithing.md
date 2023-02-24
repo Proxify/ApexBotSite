@@ -3,7 +3,7 @@ Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all it
 
 **Online Status:** 
 ⚠️ (Partial)
-* Juju potions currently broken in the latest client release
+* Juju potions currently broken in the latest release
 
 ### Features
 ##### Smelt All Bars & Corrupted Ore
