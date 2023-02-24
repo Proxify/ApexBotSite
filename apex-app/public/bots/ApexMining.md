@@ -119,10 +119,10 @@ Configuration Menu
 ##### ApexMining v1.0.9
 `02/24/2023`
 - Improved overall object interactions in several traversal pathing logics
-- Added Precious Gem Rock locations for:
+- Added Precious Gem Rock support for:
     - Al-Kharid Resource Dungeon Mine
     - Shilo Village Mine
-- Added Common Gem Rock location for:
+- Added Common Gem Rock and Uncommon Gem Rock support for:
     - Al-Kharid Normal Mine
 - Fixed traversals:
     - Yanille
