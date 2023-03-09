@@ -24,9 +24,8 @@ function App() {
 const home = () => {
     return (
         <div className="home">
-            <img src={logo} alt="ApexBots"/>
-
-            <h1>ApexBots</h1>
+          <iframe src="http://api.stratussoftware.net:3000/d/3aBdRnaVz/total-bot-stats?orgId=2&from=now-14d&to=now&kiosk"></iframe>
+          <img src={logo} alt="ApexBots"/>
         </div>
     )
 }
