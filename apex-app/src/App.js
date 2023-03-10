@@ -24,7 +24,7 @@ function App() {
 const home = () => {
     return (
         <div className="home">
-          {/* <iframe title="grafana" src="http://api.stratussoftware.net:3000/d/3aBdRnaVz/total-bot-stats?orgId=2&from=now-14d&to=now&kiosk"></iframe> */}
+          <iframe title="grafana" src="https://grafana.dgr-gaming.com/d/3aBdRnaVz/total-bot-stats?orgId=2&from=now-14d&to=now&kiosk"></iframe>
           <img src={logo} alt="ApexBots"/>
         </div>
     )

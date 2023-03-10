@@ -21,11 +21,11 @@ function MainContent(props) {
     const mdF = (md) => {
         return (
             <div className="main-content">
-                {/* {
+                {
                     selectedBot !== "ApexAssistant" && (
-                        <iframe title="grafana" src={`http://api.stratussoftware.net:3000/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
+                        <iframe title="grafana" src={`https://grafana.dgr-gaming.com/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
                     )
-                } */}
+                }
                 <div className="markdown-holder">
                     <ReactMarkdown className="markdown-content" children={md} remarkPlugins={[remarkGfm]} />
                 </div>
