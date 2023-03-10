@@ -24,6 +24,10 @@ Bot Configuration
 ![Bot Configuration](https://iili.io/bY9JwX.png)
 
 ## Changelogs
+##### ApexSmithing v1.0.7
+`03/10/2023`
+- Fixed an issue that was preventing the bot from accurately determining if it has the resources to smith an item
+
 ##### ApexSmithing v1.0.6
 `02/11/2023`
 - Updated to work with latest Abyss client
