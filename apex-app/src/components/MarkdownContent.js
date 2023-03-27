@@ -24,8 +24,8 @@ function MainContent(props) {
             <div className="main-content">
                 {
                     selectedBot !== "ApexAssistant" && (
-                        // <iframe title="grafana" src={`https://grafana.dgr-gaming.com/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
-                        <PlayerStats />
+                        <iframe title="grafana" src={`https://grafana.dgr-gaming.com/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
+                        // <PlayerStats />
                     )
                 }
                 <div className="markdown-holder">

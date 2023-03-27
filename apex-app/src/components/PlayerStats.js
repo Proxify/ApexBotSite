@@ -7,7 +7,7 @@ function PlayerStats() {
 
   useEffect(() => {
     const requestOptions = {
-      method: 'POST',
+      method: 'GET',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: user.email, digest: "" })
     };
