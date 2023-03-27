@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 function PlayerStats() {
   const [htmlContent, setHtmlContent] = useState('');
-  const { user, isAuthenticated } = useAuth0();
+  const { user } = useAuth0();
 
   useEffect(() => {
     const requestOptions = {
