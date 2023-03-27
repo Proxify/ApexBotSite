@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useLocation } from 'react-router';
-import PlayerStats from './PlayerStats.js'
+// import PlayerStats from './PlayerStats.js'
 
 function MainContent(props) {
     const location = useLocation();
