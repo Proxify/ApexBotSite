@@ -10,9 +10,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Header bots={bots}/>
+        <Header bots={bots}/>
         <Routes>
           <Route path="/bots/:botName" element={<MarkdownContent className="main-content"/>} />
+          <Route path="/auth/callback" element={home()} />
           <Route path="/" element={home()} />
           <Route path="*" element={home()} />
         </Routes>

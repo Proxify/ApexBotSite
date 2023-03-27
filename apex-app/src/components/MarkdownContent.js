@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useLocation } from 'react-router';
+import PlayerStats from './PlayerStats.js'
 
 function MainContent(props) {
     const location = useLocation();
@@ -23,7 +24,8 @@ function MainContent(props) {
             <div className="main-content">
                 {
                     selectedBot !== "ApexAssistant" && (
-                        <iframe title="grafana" src={`https://grafana.dgr-gaming.com/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
+                        // <iframe title="grafana" src={`https://grafana.dgr-gaming.com/d/K6VZzmaVz/bot-statistics-specific?orgId=2&refresh=30s&var-Platform=Abyss&var-Skill=${selectedBot.substring(4).toLowerCase()}XP&var-span=6h&kiosk`}></iframe>
+                        <PlayerStats />
                     )
                 }
                 <div className="markdown-holder">
