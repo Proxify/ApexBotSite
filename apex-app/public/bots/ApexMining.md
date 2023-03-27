@@ -1,9 +1,8 @@
 # ApexMining
 A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
-**Online Status:** 
-⚠️ (Partial)
-* Juju potions currently broken in the latest release
+**Online Status:**
+⛔(Offline) - Pending Abyss client update
 
 ## Features
 ##### Supports all Ore Boxes
