@@ -2,7 +2,7 @@
  A comprehensive, full-featured bot that supports all dig sites and hotspots, waterfiend familiar, porters, GotE, and plenty more!
 
 **Online Status:** 
-⛔(Offline) - Pending Abyss client update
+✅(Online) - *Task queue is currently broken, pending Abyss client update
 
 ## Features
 ##### Supports all Dig Sites and Excavation locations

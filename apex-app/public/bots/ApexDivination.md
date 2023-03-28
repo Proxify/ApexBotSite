@@ -2,7 +2,7 @@
 Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
 
 **Online Status:**
-⛔(Offline) - Pending Abyss client update
+✅(Online)
 
 ### Features
 ##### Supports All Wisp locations
@@ -16,7 +16,8 @@ Supports all main locations. Efficient prioritization of wisps/springs/enriched.
 ##### Collects Guthixian Butterflies and Chronicle Fragments (configurable)
 - Manifested Knowledge and Seren Spirits will be supported soon
 ##### Guthixian Cache (beta)
-- Logic disabled in current release while I work out a couple of bugs
+- BETA! Use at your own risk
+- Will attempt to gather memories and deposit in the center rift
 
 ### Requirements
 -  You must move the player within 100 tiles of your selected divination area

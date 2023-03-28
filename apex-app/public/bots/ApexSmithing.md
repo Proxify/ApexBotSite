@@ -2,7 +2,7 @@
 Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all items from Base -> Burial and repeat!
 
 **Online Status:**
-⛔(Offline) - Pending Abyss client update
+✅(Online) - *Task queue is currently broken, pending Abyss client update
 
 ### Features
 ##### Smelt All Bars & Corrupted Ore

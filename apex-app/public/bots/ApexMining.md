@@ -2,7 +2,7 @@
 A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
 
 **Online Status:**
-⛔(Offline) - Pending Abyss client update
+✅(Online) - *Task queue is currently broken, pending Abyss client update
 
 ## Features
 ##### Supports all Ore Boxes

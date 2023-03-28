@@ -2,7 +2,7 @@
 Supports task system for Gem cutting, Jewelry crafting, and Harps. Presets, Portables, and more!
 
 **Online Status:**
-⛔(Offline) - Pending Abyss client update
+✅(Online) - *Task queue is currently broken, pending Abyss client update
 
 ### Features
 ##### Jewelry Crafting
