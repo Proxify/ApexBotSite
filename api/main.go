@@ -3,9 +3,11 @@ package main
 import (
 	"crypto/sha256"
 	"encoding/base64"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -19,7 +21,7 @@ func main() {
 		User   string `json:"user"`
 	}
 
-	router.POST("/validate", func(c *gin.Context) {
+	router.GET("/validateDigest", func(c *gin.Context) {
 		// Parse the JSON request body into a RequestPayload object
 		var request RequestPayload
 		if err := c.ShouldBindJSON(&request); err != nil {
@@ -30,12 +32,58 @@ func main() {
 		hash := sha256.Sum256(data)
 		generatedDigest := base64.StdEncoding.EncodeToString(hash[:])
 
-		if request.Digest == generatedDigest {
+		if request.Digest != generatedDigest {
 			c.AbortWithStatusJSON(400, gin.H{"error": "invalid digest"})
 			return
 		} else {
 			c.JSON(200, gin.H{"apexId": generatedDigest[:8]})
 		}
+	})
+
+	router.GET("/validate", func(c *gin.Context) {
+		fullUrl := c.Request.RequestURI
+		fmt.Println("FullUrl: " + fullUrl)
+		authHeader := c.GetHeader("Authorization")
+		if authHeader == "" {
+			c.AbortWithStatus(http.StatusUnauthorized)
+			return
+		}
+
+		token := strings.TrimPrefix(authHeader, "Bearer ")
+
+		req, err := http.NewRequest("GET", "https://apexbots.us.auth0.com/userinfo", nil)
+		if err != nil {
+			fmt.Println("Error:", err)
+			c.AbortWithStatus(http.StatusUnauthorized)
+		}
+
+		req.Header.Set("Authorization", "Bearer "+token)
+
+		client := &http.Client{}
+		resp, err := client.Do(req)
+		if err != nil {
+			c.AbortWithStatus(http.StatusUnauthorized)
+			return
+		}
+
+		var request RequestPayload
+		if err := c.ShouldBindJSON(&request); err != nil {
+			c.AbortWithStatusJSON(400, gin.H{"error": "invalid request"})
+			return
+		}
+
+		defer resp.Body.Close()
+
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			c.AbortWithStatus(http.StatusUnauthorized)
+			return
+		}
+		if string(body) == "Unauthorized" {
+			c.AbortWithStatus(http.StatusUnauthorized)
+		}
+
+		c.String(http.StatusOK, string(body))
 	})
 
 	router.GET("/stats", func(c *gin.Context) {
@@ -67,6 +115,7 @@ func main() {
 		// Write the HTML content as the response body
 		c.Writer.Header().Set("Content-Type", "text/html")
 		c.Writer.Write(htmlContent)
+		fmt.Println(string(htmlContent))
 	})
 
 	// Run the server
