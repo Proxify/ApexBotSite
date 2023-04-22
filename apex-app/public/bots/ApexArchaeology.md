@@ -57,6 +57,23 @@ Progress Report
 ![Progress Report](https://iili.io/Hz2xPUB.png)
 
 ## Changelogs
+##### ApexArchaeology v1.1.4
+`04/21/2023`
+- Fixed a traversal issue at Everlight's Stadio Debris hotspot
+- Fixed an issue that was causing interactions with material carts to not be successful. This affected several locations
+
+##### ApexArchaeology v1.1.3
+`04/07/2023`
+- Added support for the Dark Fa21cet of Grave, supporting up to 2000 porter charges
+- Fixed an issue that was causing the sprite to get lost at Kharid-Et's Culinarium site
+- Fixed a bug that was causing the bot to get stuck if it found itself near a bank with a Pylon battery or Rex skeletal fragment
+- Added a new configurable setting that allows users to choose whether or not to use deposit cart at locations that have one nearby
+
+##### ApexArchaeology v1.1.2
+`02/24/2023`
+- Added item tracking to ApexBots
+- Improved logic governing the use of the Master Archaeologyist's Outfit
+
 ##### ApexArchaeology v1.1.1
 `02/11/2023`
 - Updated to work with latest Abyss client
