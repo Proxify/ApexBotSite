@@ -38,6 +38,10 @@ Progress Reports
 - Recommended to craft jewelry within Artisan's Workship. Other locations may work, but this is where all testing is done.
 
 ## Changelogs
+##### ApexCrafting v1.1.1
+`05/02/2023`
+- Fixed an issue that was causing the client to crash when crafting jewelry at a furnace
+
 ##### ApexCrafting v1.1.0
 `02/19/2023`
 - Added support for Protean hide
