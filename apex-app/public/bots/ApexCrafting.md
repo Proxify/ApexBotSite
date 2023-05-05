@@ -38,6 +38,12 @@ Progress Reports
 - Recommended to craft jewelry within Artisan's Workship. Other locations may work, but this is where all testing is done.
 
 ## Changelogs
+##### ApexCrafting v1.1.2
+`05/05/2023`
+ApexCrafting v1.1.2
+- Updated to work with latest client changes
+    - Fixed an issue that was preventing the bot from progressing past the crafting interface
+
 ##### ApexCrafting v1.1.1
 `05/02/2023`
 - Fixed an issue that was causing the client to crash when crafting jewelry at a furnace
