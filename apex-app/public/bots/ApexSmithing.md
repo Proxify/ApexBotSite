@@ -24,7 +24,7 @@ Bot Configuration
 
 ## Changelogs
 ##### ApexSmithing v1.0.8
-`05/15/2023`
+`05/05/2023`
 - Updated to work with latest client changes
     - Fixed an issue that was causing the bot to crash when smithing an item
     - Fixed an issue that was preventing the bot from selecting the correct upgrade level
