@@ -9,7 +9,7 @@ Efficiently queue smelting & smithing tasks at Artisan's Workshop. Create all it
 - Excludes Masterwork bars (for now)
 - Supports smelting bars directly back into the furnace via Family Crest quest completion
 ##### Smith all base items and all upgrade levels
-- Can be configured to smith from Base -> Burial from scratch or just simply finish off your burial-ready items~
+- Can be configured to smith from Base -> Burial from scratch or just simply finish off your burial-ready items!
 ##### Supports Task queueing
 - For example, you can configure the bot to smelt 384 Elder Rune Bars and then use those bars to create a full Elder Rune set, all the way from Base to Burial set
 - When all tasks are complete, the bot can idle or repeat the queue
