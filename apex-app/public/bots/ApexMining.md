@@ -115,6 +115,12 @@ Configuration Menu
 ![Menu](https://iili.io/H55GDrl.md.png)
 
 ## Changelogs
+##### ApexMining v1.1.0
+`05/08/2023`
+- Fixed traversal logic to the Lumbridge West Mining location (near Shattered Throne)
+- Fixed an issue that was causing faulty rockertunity detection when two rocks' global areas overlapped
+- Fixed an issue that was causing the Intelligent Playstyle to behave improperly when in the AFK playstyle mode
+
 ##### ApexMining v1.0.9
 `02/24/2023`
 - Improved overall object interactions in several traversal pathing logics
